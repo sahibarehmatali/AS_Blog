@@ -63,7 +63,7 @@ const BlogPage: React.FC = () => {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <h1 className="text-3xl font-bold text-primary">
-            AN<span className="text-red-500">Blog</span>
+            AS<span className="text-red-500">Blog</span>
           </h1>
           <nav className="hidden md:block">
             <ul className="flex space-x-6">
@@ -83,7 +83,7 @@ const BlogPage: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-secondary text-white py-16 text-center">
+      <section id="home" className="bg-secondary text-black py-16 text-center">
         <h2 className="text-4xl font-bold">Welcome to My Blog</h2>
         <p className="text-lg mt-2">Explore the latest reviews and insights into the tech world.</p>
       </section>
